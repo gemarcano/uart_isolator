@@ -539,6 +539,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Product Number",
+          "name": "Manufacturer Product Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Product Number",
+          "name": "Mouser Product Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Product Number",
+          "name": "Digikey Product Number",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -592,5 +610,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Gabriel Marcano"
+  }
 }
